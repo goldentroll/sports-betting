@@ -10,7 +10,6 @@ export default class PushNotificationManager extends React.Component {
 
   registerDevice = () => {
     Notifications.events().registerRemoteNotificationsRegistered(event => {
-      // TODO: Send the token to my server so it could send back push notifications...
       // console.log('Device Token Received', event.deviceToken)
     })
     Notifications.events().registerRemoteNotificationsRegistrationFailed(event => {
