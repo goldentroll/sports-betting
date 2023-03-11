@@ -2,6 +2,7 @@
 A Sport betting Mobile app built with ReactNative
 Sports odds and data fetched from <a href="https://www.betconstruct.com/products/sportsbook">BetConstruct</a>
 
+
 # Note
 * This Project has no proper documentation and commetting. 
 You would have to go through the codes to really understand the flow and how it works.
