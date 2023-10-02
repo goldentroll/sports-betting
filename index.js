@@ -18,11 +18,11 @@ const reducers = combineReducers({
     casinoMode:casinoReducer,
     liveData:liveDataReducer,
     sb_modal:modalReducer,
+    betslip:betslipDataReducer,
+    betHistoryData:betHistoryDataReducer
     prematchData:prematchDataReducer,
     competitionData:competitionDataReducer,
     gameViewData:gameViewDataReducer,
-    betslip:betslipDataReducer,
-    betHistoryData:betHistoryDataReducer
 }),store = createStore(reducers,applyMiddleware(thunk))
 , AppView = () => {
     return (
