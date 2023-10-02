@@ -1740,7 +1740,6 @@ export default class App extends PureComponent {
       "command": "bet_history",
       "params": {
         "where": {
-          // use case 1
           "from_date": moment().unix() - 3600 * 24,
           "to_date": moment().unix(),
           // "outcome":0,
